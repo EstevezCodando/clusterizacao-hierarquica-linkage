@@ -34,10 +34,9 @@ $$
 - **Q4 – Ward linkage (ilustrado).** Fusões preferem clusters compactos; evita _chaining_.
 
 - **Q5 – Complete linkage (conceito).** Distância entre grupos é a **maior** distância ponto‑a‑ponto:
-
-  $$
-  d_{\text{complete}}(A,B)=\max_{x\in A,\; y\in B} d(x,y).
-  $$
+$$
+d_{\text{complete}}(A,B)=\max_{x\in A,\, y\in B} d(x,y).
+$$
 
   Produz clusters compactos (diâmetro pequeno).
 
@@ -53,15 +52,15 @@ $$
 
 - **Q11 – Escolha de \(K\) por salto relativo.** Procura do **maior salto relativo** no topo do dendrograma,
 
-  $$
-  r_i=\frac{h_{i+1}}{h_i},
-  $$
+$$
+r_i = \frac{h_{i+1}}{h_i}
+$$
 
-  e corte **antes** do salto:
+Corte antes do salto:
 
-  $$
-  K^{*}=n-(i^{*}+1).
-  $$
+$$
+K = n - (i+1)
+$$
 
   Avaliação de \(K=3\) da Q7.
 
