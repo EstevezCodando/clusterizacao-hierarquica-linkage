@@ -27,9 +27,9 @@ Este repositório contém um **notebook Jupyter** (IPYNB) com uma trilha sobre *
 
 - **Q3 – Ward linkage (conceito).** Funde o par que **menos aumenta** a soma dos quadrados intra‑cluster (WCSS):
 
-  $$
-  \Delta(A,B)=\frac{n_A\,n_B}{n_A+n_B}\,\lVert \mu_A-\mu_B\rVert^2.
-  $$
+ $$
+\Delta(A,B)=\frac{n_A\,n_B}{n_A+n_B}\,\left\| \mu_A-\mu_B \right\|^2
+$$
 
 - **Q4 – Ward linkage (ilustrado).** Fusões preferem clusters compactos; evita _chaining_.
 
